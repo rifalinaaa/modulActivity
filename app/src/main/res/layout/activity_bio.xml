@@ -57,23 +57,26 @@
 
     </LinearLayout>
 
-
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="10px"
-        android:text="Tanggal Lahir" />
-
+        android:textSize="18sp"
+        android:text="Tanggal Lahir: "
+        android:textStyle="bold"/>
     <EditText
-        android:id="@+id/edt_date"
+        android:id="@+id/et_input_tanggal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="1"
-        android:padding="10px"
-        android:text="Pilih Disini"
-        android:gravity="center"/>
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="DD-MM-YYYY" />
 
     <TextView
+        android:id="@+id/tv_alamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10px"
@@ -110,10 +113,30 @@
         android:paddingBottom="20sp"/>
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/tv_output_nama"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Result" />
+        android:text="Nama" />
 
+    <TextView
+        android:id="@+id/tv_output_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Tanggal Lahir" />
+
+    <TextView
+        android:id="@+id/tv_output_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Alamat" />
+
+    <TextView
+        android:id="@+id/tv_output_Nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nomor Telepon" />
 </LinearLayout>

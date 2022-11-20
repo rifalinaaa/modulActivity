@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_input_tanggal" type="id" />
+    <item name="et_input_namaDepan" type="id" />
+    <item name="et_input_alamat" type="id" />
+    <item name="et_input_nomorTelepon" type="id" />
+    <item name="et_input_namaBelakang" type="id" />
+    <item name="tv_output_nama" type="id" />
+    <item name="tv_output_tanggal" type="id" />
+    <item name="tv_output_NomorTelepon" type="id" />
+    <item name="tv_output_alamat" type="id" />
+    <item name="et_input_tanggalLahir" type="id" />
+    <item name="tv_output_tanggalLahir" type="id" />
+    <item name="et_input_nomor" type="id" />
+    <item name="tv_output_Nomor" type="id" />
+</resources>
